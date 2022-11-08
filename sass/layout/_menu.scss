@@ -42,23 +42,7 @@ display: flex;
 
     
     color:var(--title-color);
-
-    &::after{
-        content: '';
-        position: absolute;
-        border: 1px solid #FFFFFF;
-        width: 88px;
-        left: 799px;
-        top: 39%;
-    }
-    &::before {
-        content: '';
-        position: absolute;
-        border: 1px solid #FFFFFF;
-        width: 88px;
-        left: 445px;
-        top: 39%;
-    }
+    text-decoration: underline;
 }
 .menu__title--accent{
     color: #c41a1a;
