@@ -1,1 +1,11 @@
 @import './base/common';
+
+@import './components/container';
+@import './components/section';
+
+@import './utils/variables';
+
+@import './layout/header';
+@import './layout/main-section';
+@import './layout/about-us';
+@import './layout/menu';

@@ -1,0 +1,43 @@
+
+.about-us-wraper {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 100px;
+    padding-bottom: 305px;
+}
+
+.about-us__img {
+}
+
+.about-us__title {
+    display: flex;
+    align-items: center;
+    max-width: 261px;
+    font-family: 'Bebas Neue';
+    font-size: 32px;
+    line-height: 1.2;
+    color: var(--title-color);
+}
+
+.about-us__description {
+    max-width: 334px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.about-us__text {
+        line-height: 1.62;
+        text-transform: uppercase;
+}
+
+.about-us__link {
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    line-height: 1;
+    
+    color: var(--title-color);
+    text-decoration: underline;
+}
