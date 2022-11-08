@@ -20,11 +20,12 @@ display: flex;
     font-size: 200px;
     line-height: 1;
 
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--title-color);
 }
 .menu__img{
     position: absolute;
     z-index: 2;
+    opacity: 0.5;
     top: -113px;
     left: 32%;
     }
@@ -59,7 +60,9 @@ display: flex;
         top: 39%;
     }
 }
-
+.menu__title--accent{
+    color: #c41a1a;
+}
 .menu-list {
     max-width: 641px;
     display: flex;

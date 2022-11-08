@@ -218,12 +218,13 @@ p {
   font-family: "Bebas Neue";
   font-size: 200px;
   line-height: 1;
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--title-color);
 }
 
 .menu__img {
   position: absolute;
   z-index: 2;
+  opacity: 0.5;
   top: -113px;
   left: 32%;
 }
@@ -256,6 +257,10 @@ p {
   width: 88px;
   left: 445px;
   top: 39%;
+}
+
+.menu__title--accent {
+  color: #c41a1a;
 }
 
 .menu-list {
@@ -336,10 +341,6 @@ p {
 
 .exclusive-list__item {
   padding: 38px 50px;
-}
-.exclusive-list__item:hover {
-  background-color: #191919;
-  border-radius: 6px;
 }
 
 .feedback-wrapper {
