@@ -32,6 +32,7 @@ display: flex;
     padding-top: 175px;
 }
 .title {
+    position: relative;
     font-family: 'Bebas Neue';
     font-size: 50px;
     line-height: 1;
@@ -40,6 +41,23 @@ display: flex;
 
     
     color:var(--title-color);
+
+    &::after{
+        content: '';
+        position: absolute;
+        border: 1px solid #FFFFFF;
+        width: 88px;
+        left: 799px;
+        top: 39%;
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        border: 1px solid #FFFFFF;
+        width: 88px;
+        left: 445px;
+        top: 39%;
+    }
 }
 
 .menu-list {
