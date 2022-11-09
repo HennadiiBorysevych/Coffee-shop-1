@@ -3,6 +3,10 @@
     max-width: 630px;
     padding-top: 305px;
     padding-bottom: 215px;
+    @media screen and (max-width:767px) {
+        padding-top: 215px;
+        padding-bottom: 215px;
+    }
 }
 .section--bg{
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(9, 9, 9, 0.532741) 53.27%, #000 100%), 
@@ -13,6 +17,9 @@
 .main-section__title {
     font-family: 'Bebas Neue';
     font-size: 130px;
+    @media screen and (max-width:767px) {
+    font-size: calc(50px + 20 * (100vw / 767));
+    }
     line-height: 1;     
     color: var(--title-color);
 
@@ -22,7 +29,9 @@
 .main-section__text {
         font-size: 20px;
         line-height: 1.5;
-
+    @media screen and (max-width:767px) {
+            font-size: calc(15px + 5 * (100vw / 767));
+        }
         margin-bottom: 50px;
 }
 
@@ -46,40 +55,5 @@
     padding: 15px 16px;  
     &:hover{
         background-color: #c41a1a;
-    }
-}
-.wrapper {
-    // height: 100vh;
-    /*This part is important for centering*/
-    // display: grid;
-    // place-items: center;
-}
-
-.wrapper {
-    // height: 100vh;
-    /*This part is important for centering*/
-    display: grid;
-    place-items: left;
-}
-
-.typing-demo {
-    width: 19ch;
-    animation: typing 2s steps(19), blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 7px solid;
-    font-family: 'Bebas Neue';
-    font-size: 130px;
-}
-
-@keyframes typing {
-    from {
-        width: 0
-    }
-}
-
-@keyframes blink {
-    50% {
-        border-color: transparent
     }
 }

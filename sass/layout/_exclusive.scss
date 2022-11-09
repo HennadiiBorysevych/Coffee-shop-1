@@ -6,6 +6,10 @@
 .exclusive-list {
         display: flex;
         justify-content: space-between;
+
+            @media screen and (max-width:767px) {
+                display: block;
+              }
 }
 .eclusive--part{
 max-width: 307px;
