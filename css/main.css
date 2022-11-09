@@ -355,12 +355,12 @@ p {
   background-color: #191919;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-  padding: 25px 19px 55px 19px;
+  padding: 70px 20px 70px 20px;
 }
 
 .feedback-list__img {
   margin: 0 auto;
-  margin-bottom: 17px;
+  margin-bottom: 30px;
 }
 
 .feedback-list__text {
@@ -370,7 +370,7 @@ p {
 .guest-list {
   position: absolute;
   left: 35%;
-  bottom: -50%;
+  bottom: -30%;
 }
 
 .guest-list__item {

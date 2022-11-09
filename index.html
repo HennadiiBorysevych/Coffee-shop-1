@@ -23,6 +23,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <div class="wraper">
@@ -99,7 +100,11 @@
             <div class="menu-wraper">
               <div class="menu--part">
                 <img src="./images/section-1/beans1.svg" alt="coffee beans" />
-                <h2 class="menu__title">
+                <h2
+                  class="menu__title"
+                  data-aos="fade-up"
+                  data-aos-duration="500"
+                >
                   <span class="menu__title--accent">Hello!</span>Coffee
                 </h2>
                 <img
@@ -277,7 +282,7 @@
             <div class="feedback-wrapper">
               <h3 class="title">Our Guestbook</h3>
               <ul class="feedback-list">
-                <li class="feedback-list__item">
+                <li class="feedback-list__item" data-aos="zoom-in">
                   <img
                     class="feedback-list__img"
                     src="./images/Frame.svg"
@@ -300,7 +305,11 @@
                     </li>
                   </ul>
                 </li>
-                <li class="feedback-list__item">
+                <li
+                  class="feedback-list__item"
+                  data-aos="zoom-in"
+                  data-aos-delay="500"
+                >
                   <img
                     class="feedback-list__img"
                     src="./images/Frame.svg"
@@ -323,7 +332,11 @@
                     </li>
                   </ul>
                 </li>
-                <li class="feedback-list__item">
+                <li
+                  class="feedback-list__item"
+                  data-aos="zoom-in"
+                  data-aos-delay="1000"
+                >
                   <img
                     class="feedback-list__img"
                     src="./images/Frame.svg"
@@ -594,6 +607,8 @@
         </div>
       </footer>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="module" src="./js/aox.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./js/swiper.js"></script>
   </body>

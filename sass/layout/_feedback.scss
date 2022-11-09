@@ -19,12 +19,12 @@
     // flex-direction: column;
     // align-items: center;
 
-    padding: 25px 19px 55px 19px;
+    padding: 70px 20px 70px 20px;
 }
 
 .feedback-list__img {
     margin: 0 auto;
-    margin-bottom: 17px;
+    margin-bottom: 30px;
 }
 
 .feedback-list__text {
@@ -34,7 +34,7 @@
 .guest-list {
     position: absolute;
     left: 35%;
-    bottom: -50%;
+    bottom: -30%;
 }
 
 .guest-list__item {
@@ -44,7 +44,3 @@
 .guest-list__img {
     margin: 0 auto;
 }
-
-.guest-list__name {}
-
-.guest-list__position {}
