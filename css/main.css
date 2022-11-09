@@ -71,7 +71,7 @@ p {
 .open {
   position: absolute;
   top: 0;
-  right: 40px;
+  right: 11px;
   width: 50px;
   height: 50px;
   display: block;
@@ -516,6 +516,11 @@ p {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+@media screen and (max-width: 767px) {
+  .menu-wraper {
+    padding-top: 0;
+  }
+}
 
 .menu--part {
   display: flex;
@@ -525,7 +530,11 @@ p {
 }
 @media screen and (max-width: 767px) {
   .menu--part {
-    display: none;
+    display: block;
+    position: static;
+  }
+  .menu--part img {
+    margin: 0 auto;
   }
 }
 
@@ -535,6 +544,12 @@ p {
   line-height: 1;
   color: var(--title-color);
 }
+@media screen and (max-width: 767px) {
+  .menu__title {
+    font-size: calc(50px + 2.6075619296vw);
+    text-align: center;
+  }
+}
 
 .menu__img {
   position: absolute;
@@ -542,6 +557,12 @@ p {
   opacity: 0.5;
   top: -113px;
   left: 32%;
+}
+@media screen and (max-width: 767px) {
+  .menu__img {
+    top: 77px;
+    left: 22px;
+  }
 }
 
 @media screen and (min-width: 768px) {

@@ -6,6 +6,10 @@
     position: relative;
     padding-top: 100px;
     padding-bottom: 100px;
+
+    @media screen and (max-width:767px) {
+        padding-top: 0;
+    }
 }
 
 .menu--part {
@@ -15,7 +19,12 @@ display: flex;
     position: absolute;
 
     @media screen and (max-width:767px) {
-        display: none;
+        display: block;
+        position: static;
+
+        & img{
+            margin: 0 auto;
+        }
     }
 }
 
@@ -23,7 +32,10 @@ display: flex;
     font-family: 'Bebas Neue';
     font-size: 200px;
     line-height: 1;
-
+        @media screen and (max-width:767px) {
+                font-size: calc(50px + 20 * (100vw / 767));
+                text-align: center;
+            }
     color: var(--title-color);
 }
 .menu__img{
@@ -32,6 +44,11 @@ display: flex;
     opacity: 0.5;
     top: -113px;
     left: 32%;
+    @media screen and (max-width:767px) {
+    top: 77px;
+        left: 22px;
+
+    }
     }
 .menu{
 
