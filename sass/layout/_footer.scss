@@ -1,0 +1,104 @@
+.page-footer{
+    background-image: url(../../images/footer.jpg);
+    background-repeat: no-repeat;
+}
+.footer-wrapper {
+    display: flex;
+    gap: 110px;
+
+    padding-bottom: 100px;
+    padding-top:100px ;
+}
+
+.logo--part {
+    max-width: 336px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-logo{
+        font-family: 'Bebas Neue';
+            font-size: 45px;
+            line-height: 1.19;
+            color: #1b79e3;
+        
+            display: flex;
+            align-items: center;
+            justify-content: center;
+}
+
+.footer-logo--accent {
+        font-family: 'Bebas Neue';
+            font-size: 45px;
+            line-height: 1.19;
+            color: var(--secondary-text-color);
+}
+
+.logo-text {
+        line-height: 1.4;
+        color: #938E8E;
+}
+
+.social-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.useful__title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1;
+        color: var(--title-color);
+        margin-bottom: 30px;
+}
+.useful__item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.useful__link {
+        font-weight: 500;
+            line-height: 1;
+            text-align: center;
+
+    color: var(--secondary-bg-color);
+}
+.support__title {
+            font-weight: 600;
+                font-size: 20px;
+                line-height: 1;
+                color: var(--title-color);
+                margin-bottom: 30px;
+}
+.subscribe__input{
+    max-width: 345px;
+    min-height: 45px;
+    background: #FFFFFF;
+        border-radius: 6px;
+
+        margin-bottom: 45px;
+}
+.support__item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.support__link {
+            font-weight: 500;
+                line-height: 1;
+                text-align: center;
+            
+                color: var(--secondary-bg-color);
+}
+
+.subscribe {
+    max-width: 345px;
+}
+
+.subscribe__title {
+            font-weight: 600;
+                font-size: 20px;
+                line-height: 1;
+                color: var(--title-color);
+                margin-bottom: 30px;
+}
