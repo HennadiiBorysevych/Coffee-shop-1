@@ -167,6 +167,48 @@ p {
   background-color: #c41a1a;
 }
 
+.wrapper {
+  /*This part is important for centering*/
+}
+
+.wrapper {
+  /*This part is important for centering*/
+  display: grid;
+  place-items: left;
+}
+
+.typing-demo {
+  width: 19ch;
+  -webkit-animation: typing 2s steps(19), blink 0.5s step-end infinite alternate;
+          animation: typing 2s steps(19), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 7px solid;
+  font-family: "Bebas Neue";
+  font-size: 130px;
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
 .about-us-wraper {
   display: flex;
   justify-content: center;
