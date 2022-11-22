@@ -391,6 +391,7 @@ p {
 }
 
 .main-section__title {
+  max-width: 990px;
   font-family: "Bebas Neue";
   font-size: 130px;
   line-height: 1;
